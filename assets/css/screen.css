@@ -953,6 +953,14 @@ make sure this only happens on large viewports / desktop-ish devices.
     text-transform: uppercase;
 }
 
+.post-full-tag {
+    margin-left: 8px;
+}
+
+.post-full-tag:first-child {
+    margin-left: 0;
+}
+
 .post-full-meta-date {
     color: var(--midgrey);
     font-size: 1.2rem;
